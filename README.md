@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mangalab API
 
 Django REST API and MySQL database for the Mangalab frontend. The API project lives separately from the static frontend.
@@ -233,3 +234,7 @@ Popularity is based on `ComicView` events rather than hard-coded frontend order.
 Popular-comics results are cached in Redis for one minute. Successful catalog, genre, chapter, rating, or view-event changes invalidate all popularity periods after the database transaction commits, so the next request rebuilds the cache from current database data.
 
 Authenticated endpoints accept `Authorization: Bearer <access-token>`. Access tokens expire after 15 minutes; refresh tokens expire after 7 days. Registration and login endpoints are rate-limited.
+=======
+# blixtv
+shunchaki web dasturlashni o'rganish uchun
+>>>>>>> 64734b09c8eecfc355b04a58dfd3c80728ef768b
