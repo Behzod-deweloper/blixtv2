@@ -1,0 +1,24 @@
+.recent-comics-select-stack {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+}
+
+.recent-comics-select-stack select {
+  max-width: 100%;
+}
+
+.recent-comics-select-stack .recent-comics-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-comics-select-stack .recent-comics-filter input {
+  margin: 0;
+}

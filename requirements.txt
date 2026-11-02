@@ -1,0 +1,13 @@
+Django>=5.2,<6.1
+djangorestframework>=3.16,<4
+djangorestframework-simplejwt>=5.5,<6
+django-filter>=25.1,<27
+django-cors-headers>=4.7,<5
+django-environ>=0.12,<1
+django-allauth>=65.13,<66
+requests>=2.32,<3
+django-redis>=5.4,<6
+django-storages[s3]>=1.14,<2
+celery[redis]>=5.4,<6
+psycopg[binary]>=3.2,<4
+mysqlclient>=2.2.1,<3
